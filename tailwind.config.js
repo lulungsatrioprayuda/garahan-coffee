@@ -8,6 +8,7 @@ export default {
         neutralDGrey: "#4D4DAD",
         brandPrimary: "#4CAF4F",
         neturalGrey: "#717171",
+        grey900: "#18191F",
       },
     },
   },
