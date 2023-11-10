@@ -7,7 +7,7 @@ const Service = () => {
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
           Our Distribution
         </h2>
-        <p className="text-neutralGrey">
+        <p className="text-neturalGrey">
           Our premium coffee products are available at over 120 selected
           culinary spots, scattered across several enchanting districts in East
           Java.
@@ -53,16 +53,14 @@ const Service = () => {
       </div>
 
       {/* service card */}
-      <div>
+      <div className="mt-20 md:w-1/2 mx-auto text-center">
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
-          Our Distribution
+          The purpose of creating this product is to make an impact by.
         </h2>
-        <p className="text-neutralGrey">
-          Our premium coffee products are available at over 120 selected
-          culinary spots, scattered across several enchanting districts in East
-          Java.
-        </p>
+        <p className="text-neturalGrey">Below are the experienced impacts</p>
       </div>
+
+      {/* card */}
     </div>
   );
 };
