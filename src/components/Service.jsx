@@ -1,6 +1,24 @@
 import React from "react";
 
 const Service = () => {
+  const services = [
+    {
+      id: 1,
+      title: "Creating New Job Opportunities",
+      description:
+        " Our employment generation system opens new prospects in Garahan Village, fostering economic growth and creating avenues for professional development, making the village a rapidly growing job hub.",
+      image: "/src/assets/",
+      id: 2,
+      title: "Upholding the Reputation of Garahan Village",
+      description:
+        " Elevate the standing of Garahan Village with our initiatives, ensuring sustainable practices and community engagement that enhance the village's reputation",
+      id: 3,
+      title: "Harnessing Raw Materials in the Village",
+      description:
+        " Utilize the abundant raw materials in the village with our resource management approach, adding value to local resources and promoting sustainable development.",
+      image: "/src/assets/",
+    },
+  ];
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
       <div className="text-center my-8">
