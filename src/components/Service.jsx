@@ -6,17 +6,22 @@ const Service = () => {
       id: 1,
       title: "Creating New Job Opportunities",
       description:
-        " Our employment generation system opens new prospects in Garahan Village, fostering economic growth and creating avenues for professional development, making the village a rapidly growing job hub.",
-      image: "/src/assets/",
+        "Our employment generation system opens new prospects in Garahan Village, fostering economic growth and creating avenues for professional development, making the village a rapidly growing job hub.",
+      image: "/src/assets/icons/membership.png",
+    },
+    {
       id: 2,
       title: "Upholding the Reputation of Garahan Village",
       description:
-        " Elevate the standing of Garahan Village with our initiatives, ensuring sustainable practices and community engagement that enhance the village's reputation",
+        "Elevate the standing of Garahan Village with our initiatives, ensuring sustainable practices and community engagement that enhance the village's reputation",
+      image: "/src/assets/icons/building.png",
+    },
+    {
       id: 3,
       title: "Harnessing Raw Materials in the Village",
       description:
-        " Utilize the abundant raw materials in the village with our resource management approach, adding value to local resources and promoting sustainable development.",
-      image: "/src/assets/",
+        "Utilize the abundant raw materials in the village with our resource management approach, adding value to local resources and promoting sustainable development.",
+      image: "/src/assets/icons/hand.png",
     },
   ];
   return (
@@ -79,6 +84,25 @@ const Service = () => {
       </div>
 
       {/* card */}
+      <div>
+        {services.map((service) => (
+          <div key={service.id}>
+            <div>
+              <div>
+                <img
+                  className="bg-[#dbfadd] h-10 w-auto mx-auto rounded-tl-3xl rounded-br-3xl"
+                  src={service.image}
+                  alt=""
+                />
+              </div>
+              <h4 className="text-2xl font-bold text-neutralDGrey mb2 px-2">
+                {service.title}
+              </h4>
+              <p className="text-sm text-neturalGrey">{service.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
