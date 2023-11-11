@@ -7,21 +7,21 @@ const Service = () => {
       title: "Creating New Job Opportunities",
       description:
         "Our employment generation system opens new prospects in Garahan Village, fostering economic growth and creating avenues for professional development, making the village a rapidly growing job hub.",
-      image: "/src/assets/icons/membership.png",
+      image: "/src/assets/icons/membership1.png",
     },
     {
       id: 2,
       title: "Upholding the Reputation of Garahan Village",
       description:
         "Elevate the standing of Garahan Village with our initiatives, ensuring sustainable practices and community engagement that enhance the village's reputation",
-      image: "/src/assets/icons/building.png",
+      image: "/src/assets/icons/building1.png",
     },
     {
       id: 3,
       title: "Harnessing Raw Materials in the Village",
       description:
         "Utilize the abundant raw materials in the village with our resource management approach, adding value to local resources and promoting sustainable development.",
-      image: "/src/assets/icons/hand.png",
+      image: "/src/assets/icons/hand1.png",
     },
   ];
   return (
@@ -84,16 +84,15 @@ const Service = () => {
       </div>
 
       {/* card */}
-      <div>
+      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
         {services.map((service) => (
-          <div key={service.id}>
+          <div
+            key={service.id}
+            className="px-4 py-4 text-center md:w-[300px] mx-auto md:h-80 shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
+          >
             <div>
-              <div>
-                <img
-                  className="bg-[#dbfadd] h-10 w-auto mx-auto rounded-tl-3xl rounded-br-3xl"
-                  src={service.image}
-                  alt=""
-                />
+              <div className="bg-[#dbfadd] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl">
+                <img className="-ml-5 h-14 w-14" src={service.image} alt="" />
               </div>
               <h4 className="text-2xl font-bold text-neutralDGrey mb2 px-2">
                 {service.title}
