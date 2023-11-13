@@ -7,21 +7,21 @@ const Service = () => {
       title: "Creating New Job Opportunities",
       description:
         "Our employment generation system opens new prospects in Garahan Village, fostering economic growth and creating avenues for professional development, making the village a rapidly growing job hub.",
-      image: "/src/assets/icons/membership1.png",
+      image: "/src/assets/icons/membership2.png",
     },
     {
       id: 2,
       title: "Upholding the Reputation of Garahan Village",
       description:
         "Elevate the standing of Garahan Village with our initiatives, ensuring sustainable practices and community engagement that enhance the village's reputation",
-      image: "/src/assets/icons/building1.png",
+      image: "/src/assets/icons/building2.png",
     },
     {
       id: 3,
       title: "Harnessing Raw Materials in the Village",
       description:
         "Utilize the abundant raw materials in the village with our resource management approach, adding value to local resources and promoting sustainable development.",
-      image: "/src/assets/icons/hand1.png",
+      image: "/src/assets/icons/hand3.png",
     },
   ];
   return (

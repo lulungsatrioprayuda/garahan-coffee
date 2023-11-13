@@ -26,6 +26,32 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* statistic company */}
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
+        <div>
+          <div className="md:w-1/2">
+            <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3">
+              Revitalisasi Budaya Kopi Lokal <br />{" "}
+              <span className="text-brandPrimary">
+                Komitmen dan Inovasi Kami
+              </span>
+            </h2>
+            <p className="md:w-3/4 text-neturalGrey mb-8">
+              Perjalanan Menuju Puncak Kerja Keras dan Ketulusan Kami
+            </p>
+          </div>
+
+          {/* statistic */}
+          <div>
+            <div>
+              <div>
+                <img src="/src/assets/icons/member3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
