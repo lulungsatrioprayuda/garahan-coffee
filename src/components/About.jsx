@@ -52,7 +52,7 @@ const About = () => {
                     <h4 className="text-2xl text-neutralDGrey font-semibold">
                       119
                     </h4>
-                    <p>Distributor</p>
+                    <p>Reseller</p>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const About = () => {
                   <img src="/src/assets/icons/payment.png" alt="" />
                   <div>
                     <h4 className="text-2xl text-neutralDGrey font-semibold">
-                      120,000±
+                      99%
                     </h4>
                     <p>Pembayaran sukses</p>
                   </div>
