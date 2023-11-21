@@ -21,9 +21,6 @@ const Home = () => {
                   Perfection
                 </span>
               </h1>
-              <p className="text-neturalGrey text-base mb-8">
-                Are You Ready to Captivate Your Business with Us?
-              </p>
               <button className="btn-primary">Contact Us</button>
             </div>
           </div>
@@ -39,9 +36,6 @@ const Home = () => {
                   Since 5 Years
                 </span>
               </h1>
-              <p className="text-neturalGrey text-base mb-8">
-                Are You Ready to Captivate Your Business with Us?
-              </p>
               <button className="btn-primary">Contact Us</button>
             </div>
           </div>
